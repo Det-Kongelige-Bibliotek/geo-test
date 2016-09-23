@@ -1,0 +1,80 @@
+[
+  {// Fake doc in order to test the ingest
+    "uuid": "dk001382.tif",
+    "dc_identifier_s": "dk001382.tif",
+    "dc_title_s": "Plan og Profil af det paa Pÿndten af St. Thomæ Havn nye bÿgte Batterie : No. 6",
+    "dc_description_s": "Plan og Profil af det paa Pÿndten af St. Thomæ Havn nye bÿgte Batterie : No. 6 and this is supposed to be a very long description...",
+    "dc_rights_s": "Restricted",
+    "dct_provenance_s": "KB",
+    "dct_references_s": "{\"http://schema.org/url\":\"http://www.kb.dk/maps/kortsa/2012/jul/kortatlas/object65514/da/\"}",
+    "layer_id_s": "druid:cg357zz0321",
+    "layer_slug_s": "kb-cg357zz0321",
+    "layer_geom_type_s": "Militærvæsen Topografi Militærkort",
+    "layer_modified_dt": "2014-12-03T01:20:46Z",
+    "dc_format_s": "Shapefile",
+    "dc_language_s": "Danish",
+    "dc_type_s": "Dataset",
+    "dc_publisher_s": "",
+    "dc_creator_sm": [
+    ],
+    "dc_subject_sm": [
+      "Befæstningskort",
+      "Virgin Islands",
+      "Vestindiske øer",
+      "Charlotte Amalie",
+      "St. Thomas Havn"
+    ],
+    "dct_issued_s": "1794",
+    "dct_temporal_sm": [
+      ""
+    ],
+    "dct_spatial_sm": [
+      "Sonoma County (Calif.)",
+      "Mendocino County (Calif.)"
+    ],
+    "dc_relation_sm": [
+    ],
+    "georss_box_s": "59.669749 30.013108 60.041712 30.875309",
+    "georss_polygon_s": "60.041712 30.013108 60.041712 30.875309 59.669749 30.875309 59.669749 30.013108 60.041712 30.013108",
+    "solr_geom": "ENVELOPE(30.013108, 30.875309, 60.041712, 59.669749)",
+    "solr_bbox": "30.013108 59.669749 30.875309 60.041712",
+    "solr_year_i": 1794
+  },
+  {// Correct file that is on GeoServer and I'm trying to make it render the GeoTIFF in blacklight
+    "uuid": "DK003558.tif",
+    "dc_description_s": "Fotolitografi nordlige del udarbejdet for Skole og Hjem af O. Falkenskjold forlagt af H. Hagerup Kjøbenhavn V. Schønemann Nyborg Philipsen & Co. Lith. Etabl. Kjøbenhavn",
+    "dc_format_s": "GeoTIFF",
+    "dc_identifier_s": "DK003558.tif",
+    "dc_language_s": "Danish",
+    "dc_publisher_s": "",
+    "dc_rights_s": "Restricted",
+    "dc_subject_sm": [
+      "Jylland, Nord",
+      "Færøerne",
+      "Vestindiske øer",
+      "Bornholm ",
+      "Virgin Islands"
+    ],
+    "dc_title_s": "Kort over Danmark",
+    "dc_type_s": "Dataset",
+    "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wms\":\"http://localhost:8080/geoserver/KBmaps/wms\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"http://localhost:8080/geoserver/KBmaps/wcs\"}",
+    "dct_spatial_sm": [
+      "Denmark"
+    ],
+    "dct_temporal_sm": [
+      "1886"
+    ],
+    "dct_issued_s": "2000",
+    "dct_provenance_s": "KB",
+    "georss_box_s": "55.994 13.4641 58.3468 7.5151", //S W N E you can find them from the bounding box in QGIS in EPSG:4326 projection
+    "georss_polygon_s": "55.994 13.4641 58.3468 13.4641 58.3468 7.5151 55.994 7.5151 55.994 13.4641",
+    "layer_slug_s": "DK003558", // this is the id in solr, if you change that another document is created. It is also in the URL
+    "layer_id_s": "KBmaps:DK003558_modified", // this should be the same as the id in geoserver
+    "layer_geom_type_s": "Raster",
+    "layer_modified_dt": "",
+    "solr_bbox": "13.4641 55.994 7.5151 58.3468",
+    "solr_geom": "ENVELOPE(13.4641, 7.5151, 58.3468, 55.994)",
+    "solr_year_i": 1886,
+    "solr_issued_dt": "2000-01-01T00:00:00Z"
+  }
+]
